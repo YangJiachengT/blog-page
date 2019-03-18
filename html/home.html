@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html,
+        body {
+            background-color: #f7f7f7;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 15px;
+            width: 100%;
+            height: 100%
+        }
+        .header-left{
+            border-right: 1px solid rgb(228, 228, 228);
+            height: 100%;
+            width: 40%;
+        }
+        .container-fluid,.header,.header-left{
+            height: 100%;
+        }
+        .header-inner{
+            position:relative;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <!-- -------------大屏幕header在左侧start------------- -->
+            <header class="d-none d-lg-block header-left">
+                <div class="header-inner">
+                    <img src="../img/head1.jpg" class="img-circle" alt="">
+                </div>
+            </header>
+            <!-- -------------大屏幕header在左侧end------------- -->
+
+            <!-- -------------小屏幕header在上方start------------- -->
+            <header class="d-block d-lg-none col-12 header-top">
+                b
+            </header>
+            <!-- -------------小屏幕header在上方end------------- -->
+        </div>
+    </div>
+
+
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://layui.hcwl520.com.cn/layui-v2.4.5/layui.js?v=201811010202"></script>
+
+</html>
